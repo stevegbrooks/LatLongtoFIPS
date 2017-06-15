@@ -1,3 +1,6 @@
+#This takes the .csv from OpenDataPhilly and converts the "Shape" column into two separate columns named "Latitude" and "Longitude".
+#The next step is using this as output to the other script "latlongtoFIPS".
+
 library(readr)
 library(plyr)
 phila_crimes_10percent <- read_csv("C:/Users/BrookSte/Downloads/phila_crimes_10percent.csv")
